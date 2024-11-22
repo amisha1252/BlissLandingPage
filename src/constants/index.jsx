@@ -2,9 +2,9 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "Time Saving",
+    title: "Your Personal Content Creator",
+    text: "Bliss takes the hassle out of content creation with its advanced AI features, helping you craft perfect captions, engaging post ideas, and tailored hashtags in seconds. Share your story effortlessly and let AI amplify your creativity!",
     button: {
       icon: "/images/magictouch.svg",
       title: "Watch the demo",
@@ -14,8 +14,8 @@ export const features = [
     id: "1",
     icon: "/images/feature-2.png",
     caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    title: "Seamless Social Connections",
+    text: "Build meaningful connections with friends, followers, and like-minded communities. Share your thoughts, photos, and videos effortlessly, and discover new people through personalized suggestions.",
     button: {
       icon: "/images/docs.svg",
       title: "Read the docs",
@@ -27,17 +27,17 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Secured Information",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "Likes, Comments, and Reactions",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Direct Messaging",
   },
   {
     id: "3",
@@ -49,108 +49,103 @@ export const details = [
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "What is Bliss?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
+"Bliss is a social media platform designed to simplify content creation, enhance social connections, and provide users with AI-powered tools to share, engage, and discover meaningful content."  },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "How does the AI content creation feature work?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "2",
-    question: "How often do you add new content?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
+"Bliss's AI analyzes trends, your audience's interests, and current topics to generate personalized captions, hashtags, and post ideas. This helps you create relevant and engaging content in no time!"  },
+  // {
+  //   id: "2",
+  //   question: "How often do you add new content?",
+  //   answer:
+  //     "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+  // },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "Is Bliss free to use?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
+"Yes, Bliss is completely free to use. However, we offer premium features for creators and businesses who need advanced tools, analytics, and monetization options."  },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "How do I get started on Bliss?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Simply sign up for a free account, customize your profile, and start connecting with others! Whether you're here to share content, interact with friends, or discover new trends, Bliss makes it easy to get started.",
   },
-  {
-    id: "5",
-    question: "What happens when I’m out of storage?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "6",
-    question: "Can I upgrade my plan?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "7",
-    question: "How do I invite my team?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "8",
-    question: "Do you offer training for individuals and teams?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "9",
-    question: "I’m locked out of my account what do I do?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
+  // {
+  //   id: "5",
+  //   question: "What happens when I’m out of storage?",
+  //   answer:
+  //     "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+  // },
+  // {
+  //   id: "6",
+  //   question: "Can I upgrade my plan?",
+  //   answer:
+  //     "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+  // },
+  // {
+  //   id: "7",
+  //   question: "How do I invite my team?",
+  //   answer:
+  //     "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+  // },
+  // {
+  //   id: "8",
+  //   question: "Do you offer training for individuals and teams?",
+  //   answer:
+  //     "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+  // },
+  // {
+  //   id: "9",
+  //   question: "I’m locked out of my account what do I do?",
+  //   answer:
+  //     "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+  // },
 ];
 
 export const plans = [
   {
     id: "0",
-    title: "Core",
+    // title: "Core",
     priceMonthly: 19,
     priceYearly: 12,
-    caption: "Best for solo creators",
+    // caption: "Best for solo creators",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
+      "50 AI generated suggestions daily",
+     ,
+      "Better reach",
+      "Access all stickers",
     ],
     icon: "/images/circle.svg",
     logo: "/images/plan-1.png",
   },
   {
     id: "1",
-    title: "Overdrive",
+    // title: "Overdrive",
     priceMonthly: 79,
     priceYearly: 59,
-    caption: "Most popular plan",
+    // caption: "Most popular plan",
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "Unlimited AI generated suggestions daily",
+      "Access all stickers",
+      "Best reach in very less time",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
   },
   {
     id: "2",
-    title: "Team",
+    // title: "Team",
     priceMonthly: 39,
     priceYearly: 29,
-    caption: "Exclusively for teams",
+    // caption: "Exclusively for teams",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "100 AI generated suggestions daily",
+      "Access all stickers",
+      " Better Reachablity",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
@@ -164,7 +159,7 @@ export const testimonials = [
     role: "Globalnomads",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "Bliss is intuitive, sleek, and just works. From posting content to connecting with friends, it’s everything I wanted in a social media platform and more.",
   },
   {
     id: "1",
@@ -172,7 +167,7 @@ export const testimonials = [
     role: "Vid capital intl",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+      "Bliss lets me control who sees my posts and who can contact me. It’s great to be able to share my life without worrying about my privacy being compromised.",
   },
   {
     id: "2",
@@ -180,7 +175,7 @@ export const testimonials = [
     role: "Cyberleap",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "The AI insights and analytics are so helpful. I can track what’s working, tweak my strategy, and see real results. This is exactly what I needed to take my content to the next level!",
   },
   {
     id: "3",
@@ -188,24 +183,9 @@ export const testimonials = [
     role: "Cyberleap",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
+      "I love how easy it is to create content with the AI-powered features. The caption generator and hashtag suggestions have saved me so much time. Plus, the app is super user-friendly. Highly recommend!",
   },
-  {
-    id: "4",
-    name: "Becky Snider",
-    role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
-    comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
-  },
-  {
-    id: "5",
-    name: "Jim Bradley",
-    role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
-    comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
-  },
+  
 ];
 
 export const logos = [

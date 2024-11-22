@@ -1,7 +1,7 @@
 import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
-
+import logo from "./images/logo.png";
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -56,7 +56,7 @@ const Header = () => {
                 <li className="nav-li">
                   <NavLink title="features" />
                   <div className="dot" />
-                  <NavLink title="pricing" />
+                  <NavLink title="Subscription" />
                 </li>
 
                 <li className="nav-logo">
@@ -68,9 +68,9 @@ const Header = () => {
                     className={clsx(
                       "max-lg:hidden transition-transform duration-500 cursor-pointer",
                     )}
-                  >
+                  > 
                     <img
-                      src="/images/xora.svg"
+                      src={logo}
                       width={160}
                       height={55}
                       alt="logo"
@@ -81,7 +81,7 @@ const Header = () => {
                 <li className="nav-li">
                   <NavLink title="faq" />
                   <div className="dot" />
-                  <NavLink title="download" />
+                  <NavLink title="Sign in" />
                 </li>
               </ul>
             </nav>

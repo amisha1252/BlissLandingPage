@@ -1,7 +1,7 @@
 import { Element } from "react-scroll";
 import { links, logos } from "../constants/index.jsx";
 import { Marker } from "../components/Marker.jsx";
-
+import Logo from "../sections/images/logo.png"
 const Download = () => {
   return (
     <section>
@@ -12,11 +12,11 @@ const Download = () => {
         <div className="container">
           <div className="flex items-center">
             <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex256 max-md:flex-100">
-              <div className="mb-10">
+              <div className="-mb-20 -ml-20">
                 <img
-                  src="/images/xora.svg"
-                  width={160}
-                  height={55}
+                  src={Logo}
+                  width={360}
+                  height={180}
                   alt="xora"
                 />
               </div>
